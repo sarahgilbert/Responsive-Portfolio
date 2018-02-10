@@ -39,6 +39,7 @@ h3 {
 }
 
 h1 {
+  
   padding-bottom: 20px;
   font-size: 30px;
   line-height: 49px;
@@ -50,16 +51,15 @@ h3 {
   font-size: 22px;
 }
 
-/* header */
+/* header*/
 
 #masthead {
-  position: fixed;
+  position: static;     
   z-index: 99;
   width: 100%;
   margin: 0 0 30px;
   overflow: auto;
   color: #fff;
-  background: #fff;
   border-bottom: 2px solid #ccc;
 }
 
@@ -237,3 +237,10 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (min-width: 640px) 
+{#masthead {position: static
+}
+}
+@media screen and (max-width: 768px
+@media screen and (min-width: 769px max-width 980px))
