@@ -242,5 +242,5 @@ input[type=submit] {
 {#masthead {position: static
 }
 }
-@media screen and (max-width: 768px
-@media screen and (min-width: 769px max-width 980px))
+@media screen and (max-width: 768px)
+@media screen and (min-width: 769px max-width 980px)
